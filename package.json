@@ -2,8 +2,8 @@
   "name": "rnkit-fraudmetrix-device",
   "description": "FraudmetrixDeviceFingerPrinting for react-native",
   "main": "lib/index.js",
-  "author": "SimMan <liwei0990@gmail.com>",
-  "version": "0.0.1",
+  "author": "LaoPan <jianquanpan@sina.com>",
+  "version": "1.0.0",
   "scripts": {
     "test": "npm run test"
   },
@@ -24,8 +24,8 @@
     "device-finger-printing"
   ],
   "peerDependencies": {
-    "react": ">=15.3.1",
-    "react-native": ">=0.28"
+    "react": ">=16.0.0",
+    "react-native": ">=0.55"
   },
   "license": "MIT"
 }

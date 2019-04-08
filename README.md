@@ -2,43 +2,43 @@
 [![react-native][rn-badge]][rn]
 [![MIT][license-badge]][license]
 [![bitHound Score][bithound-badge]][bithound]
-[![Downloads](https://img.shields.io/npm/dm/rnkit-fraudmetrix-device.svg)](https://www.npmjs.com/package/rnkit-fraudmetrix-device)
+[![Downloads](https://img.shields.io/npm/dm/tnrn-fraudmetrix-device.svg)](https://www.npmjs.com/package/tnrn-fraudmetrix-device)
 
 FraudmetrixDeviceFingerPrinting for [React Native][rn].
 
 [**Support me with a Follow**](https://github.com/simman/followers)
 
-[npm-badge]: https://img.shields.io/npm/v/rnkit-fraudmetrix-device.svg
-[npm]: https://www.npmjs.com/package/rnkit-fraudmetrix-device
+[npm-badge]: https://img.shields.io/npm/v/tnrn-fraudmetrix-device.svg
+[npm]: https://www.npmjs.com/package/tnrn-fraudmetrix-device
 [rn-badge]: https://img.shields.io/badge/react--native-v0.40-05A5D1.svg
 [rn]: https://facebook.github.io/react-native
 [license-badge]: https://img.shields.io/dub/l/vibe-d.svg
-[license]: https://raw.githubusercontent.com/rnkit/rnkit-fraudmetrix-device/master/LICENSE
-[bithound-badge]: https://www.bithound.io/github/rnkit/rnkit-fraudmetrix-device/badges/score.svg
-[bithound]: https://www.bithound.io/github/rnkit/rnkit-fraudmetrix-device
+[license]: https://raw.githubusercontent.com/rnkit/tnrn-fraudmetrix-device/master/LICENSE
+[bithound-badge]: https://www.bithound.io/github/rnkit/tnrn-fraudmetrix-device/badges/score.svg
+[bithound]: https://www.bithound.io/github/rnkit/tnrn-fraudmetrix-device
 
 ## Getting Started
 
-First, `cd` to your RN project directory, and install RNMK through [rnpm](https://github.com/rnpm/rnpm) . If you don't have rnpm, you can install RNMK from npm with the command `npm i -S rnkit-fraudmetrix-device` and link it manually (see below).
+First, `cd` to your RN project directory, and install RNMK through [rnpm](https://github.com/rnpm/rnpm) . If you don't have rnpm, you can install RNMK from npm with the command `npm i -S tnrn-fraudmetrix-device` and link it manually (see below).
 
 ### Android
 
 * #### React Native < 0.29 (Using rnpm)
 
-  `rnpm install rnkit-fraudmetrix-device`
+  `rnpm install tnrn-fraudmetrix-device`
 
 * #### React Native >= 0.29
-  `$npm install -S rnkit-fraudmetrix-device`
+  `$npm install -S tnrn-fraudmetrix-device`
 
-  `$react-native link rnkit-fraudmetrix-device`
+  `$react-native link tnrn-fraudmetrix-device`
 
 #### Manually
 1. JDK 7+ is required
 1. Add the following snippet to your `android/settings.gradle`:
 
   ```gradle
-include ':rnkit-fraudmetrix-device'
-project(':rnkit-fraudmetrix-device').projectDir = new File(rootProject.projectDir, '../node_modules/rnkit-fraudmetrix-device/android/app')
+include ':tnrn-fraudmetrix-device'
+project(':tnrn-fraudmetrix-device').projectDir = new File(rootProject.projectDir, '../node_modules/tnrn-fraudmetrix-device/android/app')
   ```
   
 1. Declare the dependency in your `android/app/build.gradle`
@@ -46,7 +46,7 @@ project(':rnkit-fraudmetrix-device').projectDir = new File(rootProject.projectDi
   ```gradle
   dependencies {
       ...
-      compile project(':rnkit-fraudmetrix-device')
+      compile project(':tnrn-fraudmetrix-device')
   }
   ```
   
@@ -62,7 +62,7 @@ project(':rnkit-fraudmetrix-device').projectDir = new File(rootProject.projectDi
   }
   ```
 
-Finally, you're good to go, feel free to require `rnkit-fraudmetrix-device` in your JS files.
+Finally, you're good to go, feel free to require `tnrn-fraudmetrix-device` in your JS files.
 
 Have fun! :metal:
 
@@ -71,7 +71,7 @@ Have fun! :metal:
 Import library
 
 ```
-import FraudmetrixDeviceFingerPrinting from 'rnkit-fraudmetrix-device'
+import FraudmetrixDeviceFingerPrinting from 'tnrn-fraudmetrix-device'
 ```
 
 # Authentication
@@ -142,12 +142,8 @@ try {
 
 ```
 
-## Contribution
-
-- [@simamn](mailto:liwei0990@gmail.com)
-
 ## Questions
 
-Feel free to [contact me](mailto:liwei0990@gmail.com) or [create an issue](https://github.com/rnkit/rnkit-fraudmetrix-device/issues/new)
+[create an issue](https://github.com/rnkit/tnrn-fraudmetrix-device/issues/new)
 
 > made with ♥
