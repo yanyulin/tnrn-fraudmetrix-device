@@ -1,5 +1,5 @@
 {
-  "name": "rnkit-fraudmetrix-device",
+  "name": "tnrn-fraudmetrix-device",
   "description": "FraudmetrixDeviceFingerPrinting for react-native",
   "main": "lib/index.js",
   "author": "LaoPan <jianquanpan@sina.com>",
