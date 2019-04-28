@@ -3,22 +3,22 @@
   "description": "FraudmetrixDeviceFingerPrinting for react-native",
   "main": "lib/index.js",
   "author": "LaoPan <jianquanpan@sina.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "test": "npm run test"
   },
-  "homepage": "https://github.com/rnkit/rnkit-fraudmetrix-device",
-  "bugs": "https://github.com/rnkit/rnkit-fraudmetrix-device/issues",
+  "homepage": "https://github.com/tnrn/tnrn-fraudmetrix-device",
+  "bugs": "https://github.com/tnrn/tnrn-fraudmetrix-device/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rnkit/rnkit-fraudmetrix-device"
+    "url": "https://github.com/tnrn/tnrn-fraudmetrix-device"
   },
   "keywords": [
     "react",
     "react-native",
     "react-component",
     "excard",
-    "rnkit",
+    "tnrn",
     "fraudmetrix",
     "device",
     "device-finger-printing"
