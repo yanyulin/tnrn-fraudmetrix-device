@@ -1,21 +1,11 @@
-[![npm][npm-badge]][npm]
-[![react-native][rn-badge]][rn]
-[![MIT][license-badge]][license]
-[![bitHound Score][bithound-badge]][bithound]
-[![Downloads](https://img.shields.io/npm/dm/tnrn-fraudmetrix-device.svg)](https://www.npmjs.com/package/tnrn-fraudmetrix-device)
+
+[![npm](https://img.shields.io/npm/v/tnrn-amap-location.svg)](https://www.npmjs.com/package/tnrn-fraudmetrix-device)
+[![npm](https://img.shields.io/npm/dm/tnrn-amap-location.svg)](https://www.npmjs.com/package/tnrn-fraudmetrix-device)
+[![npm](https://img.shields.io/npm/dt/tnrn-amap-location.svg)](https://www.npmjs.com/package/tnrn-fraudmetrix-device)
+[![npm](https://img.shields.io/npm/l/tnrn-amap-location.svg)](https://github.com/tnrn/tnrn-fraudmetrix-device/master/LICENSE)
 
 FraudmetrixDeviceFingerPrinting for [React Native][rn].
 
-[**Support me with a Follow**](https://github.com/simman/followers)
-
-[npm-badge]: https://img.shields.io/npm/v/tnrn-fraudmetrix-device.svg
-[npm]: https://www.npmjs.com/package/tnrn-fraudmetrix-device
-[rn-badge]: https://img.shields.io/badge/react--native-v0.40-05A5D1.svg
-[rn]: https://facebook.github.io/react-native
-[license-badge]: https://img.shields.io/dub/l/vibe-d.svg
-[license]: https://raw.githubusercontent.com/rnkit/tnrn-fraudmetrix-device/master/LICENSE
-[bithound-badge]: https://www.bithound.io/github/rnkit/tnrn-fraudmetrix-device/badges/score.svg
-[bithound]: https://www.bithound.io/github/rnkit/tnrn-fraudmetrix-device
 
 ## Getting Started
 
@@ -81,6 +71,8 @@ import FraudmetrixDeviceFingerPrinting from 'tnrn-fraudmetrix-device'
 ```
 Privacy - Location When In Use Usage Description: 我们需要通过您的地理位置信息获取您周边的相关数据
 Privacy - Contacts Usage Description: 是否允许此App访问你的通讯录？
+
+在 iOS 工程中 build phases 添加 libresolv.9.tbd
 ```
 
 ## Android
@@ -144,6 +136,6 @@ try {
 
 ## Questions
 
-[create an issue](https://github.com/rnkit/tnrn-fraudmetrix-device/issues/new)
+[create an issue](https://github.com/tnrn/tnrn-fraudmetrix-device/issues/new)
 
 > made with ♥
