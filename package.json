@@ -3,7 +3,7 @@
   "description": "FraudmetrixDeviceFingerPrinting for react-native",
   "main": "lib/index.js",
   "author": "LaoPan <jianquanpan@sina.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "npm run test"
   },
