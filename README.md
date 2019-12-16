@@ -26,6 +26,7 @@ First, `cd` to your RN project directory, and install RNMK through [rnpm](https:
 1. JDK 7+ is required
 1. Add the following snippet to your `android/settings.gradle`:
 
+
   ```gradle
 include ':tnrn-fraudmetrix-device'
 project(':tnrn-fraudmetrix-device').projectDir = new File(rootProject.projectDir, '../node_modules/tnrn-fraudmetrix-device/android/app')
